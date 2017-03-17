@@ -1,0 +1,36 @@
+header {
+  background-color: silver;
+  /*padding: 10px 5px 10px 30px;*/
+  padding: 5% 5% 5% 8%;
+}
+
+header h2 a {
+  text-decoration: none;
+  float: left;
+}
+
+nav ul {
+  list-style-type: none;
+  display:inline-block;
+  padding:1;
+  text-align:center;
+  /*text-decoration: none;*/
+}
+
+nav li { display:inline }
+
+
+
+nav li a {
+  text-decoration: none;
+  white-space:nowrap;
+}
+
+nav { float: right;}
+
+/*end of header */
+
+
+
+
+/*add a border for the article sections */
