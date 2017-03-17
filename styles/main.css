@@ -30,10 +30,6 @@ nav li a {
 
 nav { float: right;}
 
-/*end of header */
-
-
-/*main-title*/
 
 #main-title {
    background-image:    url("../assets/hero.jpg");
@@ -46,10 +42,6 @@ nav { float: right;}
    font-size: 700%
 }
 
-/*end of main-title */
-
-
-/*main-content */
 
 #main-content {
 padding-left: 8%;
@@ -126,7 +118,6 @@ border-bottom-style: inset;
   height: 260px;
   width: 400px;
   /*position: relative; */
-
   /*margin-bottom: 6%;*/
 }
 
@@ -147,7 +138,22 @@ border-bottom-style: inset;
   color: white;
 }
 
+footer h4 {
+  display: inline;
+  float: left;
+  /*position: absolute;*/
+  /*left: 0px*/
+}
 
-footer {
+#disclaimer {
+  position: relative;
+  display: inline-block;
+  float: left;
+  /*max-width: 100px;*/
+  max-width: 50%;
   /*clear: both;*/
+}
+
+footer nav {
+  position: relative;
 }
