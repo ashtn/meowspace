@@ -1,14 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Barrio');
 
+/*colors: #495e77
+#7c7486
+#b7c4bb*/
+
+
 h1, h2, h3 {
   font-family: Barrio; sans-serif;
 }
 
+a:hover { color: #7c7486; }
+
 header {
-  background-color: silver;
-  /*border: 5px solid black;*/
-  /*padding: 10px 5px 10px 30px;*/
-  padding: 5% 5% 5% 8%;
+  background-color: #b7c4bb;
+  padding: 2% 2% 1% 2%;
+  position: fixed;
+  top: 0px;
+  width: 100%;
 }
 
 header h2 a {
@@ -20,7 +28,7 @@ header h2 a {
 nav ul {
   list-style-type: none;
   display:inline-block;
-  padding:1;
+  padding-right: 60px;
   text-align:center;
   /*text-decoration: none;*/
 }
@@ -32,6 +40,7 @@ nav li { display:inline }
 nav li a {
   text-decoration: none;
   white-space:nowrap;
+  color: #495e77
 }
 
 nav { float: right;}
@@ -67,6 +76,9 @@ margin-bottom: 6%;
   border-radius: 6%;
   vertical-align: top;
   padding: 0px;
+  margin-bottom: 5%;
+  margin-left: 2%;
+  background-color: #7c7486;
 }
 
 #main-content h3 {
@@ -84,6 +96,11 @@ margin-bottom: 6%;
   position: center;
 }
 
+#main-content p:first-child {
+  position: relative;
+  bottom: 0px
+}
+
 #main-content p > a {
   text-align: center;
   border-style: solid;
@@ -95,7 +112,7 @@ margin-bottom: 6%;
 
 
 #club {
-  background-color: silver;
+  background-color: #b7c4bb;
   padding: 5% 8% 34% 8%;
   border-style: hidden;
 }
